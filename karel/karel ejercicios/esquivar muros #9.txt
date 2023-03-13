@@ -1,0 +1,34 @@
+class program {
+void turnright()
+{
+iterate(3)
+{
+turnleft();
+}
+}
+void avanzar(i)
+{
+iterate(i)
+{
+if(frontIsBlocked)
+{
+  turnleft();
+  move();
+  turnright();
+  move();
+  turnright();
+  move();
+  turnleft();
+  }
+  if(frontIsClear)
+  {
+  move();
+  }
+  }
+  }
+    program () {
+        avanzar(10); 
+        turnoff();
+        
+    }
+}

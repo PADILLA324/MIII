@@ -1,0 +1,23 @@
+class program {
+void d(){
+iterate(3){
+turnleft();
+}
+}
+void s(){
+iterate(4){
+pickbeeper();
+move();
+}
+}
+    program () {
+        // TODO poner codigo aqui
+        iterate(6){
+        move();
+        }
+        d();
+        s();
+        pickbeeper();
+        turnoff();
+    }
+}

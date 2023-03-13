@@ -1,0 +1,20 @@
+class program {
+void d(){
+iterate(3){
+turnleft();
+}
+}
+void s(){
+iterate(3){
+move();
+d();
+move();
+turnleft();
+}
+}
+    program () {
+    s();
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}

@@ -1,0 +1,16 @@
+class program {
+void s()
+{
+if (anyBeepersInBeeperBag)
+ {
+ putbeeper();
+ move();
+ s();
+ }
+}
+    program () {
+        // TODO poner codigo aqui
+        s();
+        turnoff();
+    }
+}

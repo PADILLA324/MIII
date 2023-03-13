@@ -1,0 +1,37 @@
+class program {
+void turnringht()
+{
+iterate(3)
+{
+turnleft();
+}
+}
+void siguederecha()
+{
+while(notNextToABeeper)
+{
+if(frontIsClear && rightIsClear)
+{
+turnringht();
+}
+if(frontIsClear)
+{
+move();
+}
+if(frontIsBlocked && rightIsClear)
+{
+turnringht();
+move();
+}
+if(frontIsBlocked && rightIsBlocked)
+{
+turnleft();
+}
+}
+}
+    program () {
+    siguederecha();
+  
+        turnoff();
+    }
+}

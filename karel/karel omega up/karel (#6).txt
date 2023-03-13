@@ -1,0 +1,61 @@
+class program {
+void turnright()
+{
+iterate(3)
+{
+turnleft();
+}
+}
+void tres()
+{
+iterate(4)
+{
+iterate(3)
+{
+putbeeper();
+}
+move();
+}
+iterate(3)
+{
+turnright();
+iterate(4)
+{
+iterate(3)
+{
+putbeeper();
+}
+move();
+}
+}
+turnright();
+move();
+turnright();
+move();
+}
+void dos()
+{
+iterate(4)
+{
+iterate(2)
+{
+iterate(2)
+{
+putbeeper();
+}
+move();
+}
+turnleft();
+}
+move();
+turnleft();
+move();
+}
+    program () {
+        move();
+        tres();
+        dos();
+        putbeeper();
+        turnoff();
+    }
+}
